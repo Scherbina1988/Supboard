@@ -6,6 +6,7 @@ body {
     font-family: 'Robota';
     font-size: 18px;
     line-height: 20px;
+    
 }
 
 .avatar {
@@ -113,7 +114,7 @@ body {
     
     text-align: center;
    font-size: 18px;
-
+    /* border: 1px solid black; */
     background-color:rgb(45, 68, 68);
     /* padding-left: 30px; */
     margin-bottom: 20px;
@@ -124,8 +125,10 @@ body {
     border-radius: 4px;
     padding-left: 10px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     padding-left: 20px;
+    padding-right: 20px;
+    
 }
 .tabs th {
     
@@ -146,10 +149,11 @@ body {
 }
 
 @media (max-width: 650px) {
-    .ttabs {
+    .tabs {
         text-align: center;
         margin-left: 0;
         display: block;
+        padding-right: 100%;
     }
 }
 
@@ -274,31 +278,33 @@ a:hover {
 
  
     .navbar {
-        text-align: center; 
-        background-color: #7b8056;
-        padding-left: 30px;
+        /* text-align: center; 
+        background-color: #7b8056; */
+        /* padding-left: 30px;
         margin-bottom: 20px;
         margin-top: 0px;
         margin-left: 0px;
-        margin-right: 0px;
-        border: 10px soid rgb(126, 125, 125);
-        border-radius: 4px;
+        margin-right: 0px; */
+        border: 10px soid rgb(250, 207, 207); 
+        /* border-radius: 4px;
         padding-left: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-left: 20px;
-        position: fixed;
-        top: 0;
+        padding-left: 20px; */
+        /* position: fixed; */
+        /* top: 0;
         left: 0;
         right: 0;
-        z-index: 50;
-
-    }
-
-    @media (max-widht: 650px) {
-
-     .navbar {
-        font-size: 18px;
+        z-index: 50; */
         
-     }   
+
     }
+
+    
+    @media (max-widht: 1280px) {
+
+        .navbar {
+           font-size: 18px;
+           
+        }   
+       }
